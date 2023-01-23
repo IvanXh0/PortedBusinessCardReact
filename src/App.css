@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* margin: auto; */
+}
+
+html {
+  background-color: #23252c;
+}
+
+.personal-info img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 25px;
+}
+
+.personal-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  height: 868px;
+  left: 500px;
+  top: 53px;
+  background-color: #23252c;
+}
+
+.personal-info h3 {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.personal-info h4 {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #f3bf99;
+  text-align: center;
+}
+
+.personal-info h5 {
+  margin-top: 7px;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  line-height: 150%;
+}
+
+.text-info {
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1a1b21;
+}
+
+/* .button-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+} */
+
+#btn-email {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 450px;
+
+  /* white */
+  background: #ffffff;
+  color: #1a1b21;
+
+  /* gray/300 */
+  border: 1px solid #d1d5db;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#btn-email a {
+  color: #1a1b21;
+  text-decoration: none;
+}
+
+#btn-linkedin a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#btn-linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 450px;
+
+  background: #5093e2;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#btn-email img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  bottom: 13px;
+  left: 6px;
+
+  /* Inside auto layout */
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+}
+
+#btn-linkedin img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  bottom: 13px;
+  left: 6px;
+
+  /* Inside auto layout */
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-section {
+  display: flex;
+  position: absolute;
+  width: 280px;
+  height: 201px;
+  left: 130px;
+  top: 490px;
+}
+
+.about h3 {
+  display: flex;
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.about p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
